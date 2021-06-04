@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+*{
+    font-family:'Jura','monospace';
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color:darkslategray;
+}
+
+.container{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top:10%;
+    padding: 80px;
+    background-color: rgb(0, 0, 0);
+    box-shadow:3px 3px 3px rgba(255, 255, 255, 0.541);
+    border-radius: 40px;
+    border-top: 2px solid rgb(255, 255, 255,0.5);
+
+   
+
+}
+h1,span{
+    background-color: rgb(0, 0, 0);
+    padding:20px;
+    color:beige;
+    font-weight:bolder;
+
+
+}
+button{
+    margin:3px;
+    padding: 7px;
+
+}
+button:hover{
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    background-color:darkgrey;
+    font-weight:bolder;
+    text-decoration-style: wavy;
+}
+@media(max-width:600px)
+{
+    .container{
+        height:70vh;
+    }
+
+}
+    
